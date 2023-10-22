@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "title": "vue.js的学习",
+      "content": "对于vue的重新学习并对vue3的新功能和更改老项目,开始重构项目 更新css样式美化页面",
+      "id": 1,
+      "tags": [
+        "vue3",
+        "blog",
+        "compostitionApi"
+      ]
+    },
+    {
+      "title": "React.js的学习",
+      "content": "后期需要扩展的知识库 构建用户界面的javaScript库",
+      "id": 2,
+      "tags": [
+        "React",
+        "redux",
+        "compostitionApi"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "第一次重构",
+      "content": "内容重构 home所有架构重新规划,借鉴青夏家的Ela与灯火橘的div规划方式,但是标签出现bug暂时没有办法解决需要继续学习",
+      "tags": [
+        "重构"
+      ]
+    },
+    {
+      "id": 2975,
+      "title": "vuex",
+      "content": "vue vuex router\n",
+      "tags": [
+        "vue3",
+        "vuex",
+        "router"
+      ]
+    }
+  ]
+}
