@@ -3,13 +3,18 @@ import Home from '../views/home.vue';
 import Details from '../views/details.vue';
 // import Create from "../views/create.vue";
 import Tag from "../views/tag.vue";
-import TagCloud from "../components/TagCloud.vue";
+import Index from "../views/index.vue";
 import Roy from "../views/Img_Roy.vue"
 
 
 const routes = [
     {
-        path:"/",
+        path:"/index",
+        name: 'Index',
+        Comment: Index,
+    },
+    {
+        path:"/home",
         name: 'Home',
         component: Home
     },

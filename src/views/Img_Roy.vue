@@ -17,6 +17,9 @@
             <div class="info">
                 <div class="img"><img src="src\assets\roy\Roy_无语.png" alt="无语"></div>
             </div>
+            <div class="info">
+                <div class="img"><img src="src\assets\roy\Roy_看书.png" alt="看书" style="height: -30px;"></div>
+            </div>
         </div>
     </div>
 </template>
@@ -26,6 +29,7 @@
         display: flex;
         margin: 30px 16px 0px 20px;
     }
+    
     .img-div {
         display: flex;
         flex-wrap: wrap;

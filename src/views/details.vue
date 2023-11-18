@@ -50,7 +50,6 @@ load()
     
   </div>
   <div v-else>
-    
     <Spinner/>
   </div>
 </template>

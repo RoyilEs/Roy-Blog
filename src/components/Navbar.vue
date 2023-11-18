@@ -1,5 +1,5 @@
 <script setup>
-
+    
     window.onload = () => {
         const app = new Vue({
             el: '#app',
@@ -28,6 +28,7 @@
     <header :style="{ opacity: headerOpacity }">
         <h1>个人博客</h1>
         <nav>
+            
             <router-link :to="{name: 'Home'}">首页</router-link>
             <router-link :to="{name: 'Img_Roy'}">傻瓜表情</router-link>
             <!-- <router-link to="/create">新建</router-link> -->

@@ -3,7 +3,7 @@
     import getPosts from '../composibles/getPosts';
     import Introduce from "../components/Introduce.vue";
     import Time from "../components/Time.vue";
-
+    
     const { posts, load } = getPosts()
 
     const imgList = [
@@ -14,13 +14,13 @@
         {id:4, idView:'src/assets/image/roy3.png'},
         {id:5, idView:'src/assets/image/ap2.png'}
     ]
-
-
     load()
    
 </script>
 
 <template>
+    <!--有bug 很奇怪-->
+    <IMG />
     
    <div class="body">
     <div class="left-info">
